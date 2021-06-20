@@ -1,0 +1,13 @@
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\ProyectoPCN.exe
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\ProyectoPCN.deps.json
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\ProyectoPCN.runtimeconfig.json
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\ProyectoPCN.runtimeconfig.dev.json
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\ProyectoPCN.dll
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\ProyectoPCN.pdb
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\ProyectoPCN.csprojAssemblyReference.cache
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\ProyectoPCN.AssemblyInfoInputs.cache
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\ProyectoPCN.AssemblyInfo.cs
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\ProyectoPCN.csproj.CoreCompileInputs.cache
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\ProyectoPCN.dll
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\ProyectoPCN.pdb
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\ProyectoPCN.genruntimeconfig.cache

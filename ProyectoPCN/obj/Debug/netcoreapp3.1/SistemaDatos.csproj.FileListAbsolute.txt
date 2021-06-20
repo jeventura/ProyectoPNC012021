@@ -1,0 +1,13 @@
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\SistemaDatos.exe
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\SistemaDatos.deps.json
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\SistemaDatos.runtimeconfig.json
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\SistemaDatos.runtimeconfig.dev.json
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\SistemaDatos.dll
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\bin\Debug\netcoreapp3.1\SistemaDatos.pdb
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\SistemaDatos.csprojAssemblyReference.cache
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\SistemaDatos.AssemblyInfoInputs.cache
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\SistemaDatos.AssemblyInfo.cs
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\SistemaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\SistemaDatos.dll
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\SistemaDatos.pdb
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\ProyectoPCN\obj\Debug\netcoreapp3.1\SistemaDatos.genruntimeconfig.cache
