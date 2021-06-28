@@ -30,7 +30,7 @@ namespace SistemaPresentacion
         private void InitializeComponent()
         {
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TBTitulo = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnBuscar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -45,12 +45,12 @@ namespace SistemaPresentacion
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Titulo";
             // 
-            // textBox1
+            // TBTitulo
             // 
-            this.textBox1.Location = new System.Drawing.Point(267, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(319, 23);
-            this.textBox1.TabIndex = 1;
+            this.TBTitulo.Location = new System.Drawing.Point(267, 52);
+            this.TBTitulo.Name = "TBTitulo";
+            this.TBTitulo.Size = new System.Drawing.Size(319, 23);
+            this.TBTitulo.TabIndex = 1;
             // 
             // dataGridView1
             // 
@@ -77,7 +77,7 @@ namespace SistemaPresentacion
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TBTitulo);
             this.Controls.Add(this.lblTitulo);
             this.Name = "FrmConsultar";
             this.Text = "FrmConsultar";
@@ -90,7 +90,7 @@ namespace SistemaPresentacion
         #endregion
 
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TBTitulo;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnBuscar;
     }

@@ -8,12 +8,11 @@ using System.Windows.Forms;
 
 namespace SistemaPresentacion
 {
-    public partial class FrmModificar : Form
+    public partial class FrmReservar : Form
     {
-        public FrmModificar()
+        public FrmReservar()
         {
             InitializeComponent();
         }
-
     }
 }

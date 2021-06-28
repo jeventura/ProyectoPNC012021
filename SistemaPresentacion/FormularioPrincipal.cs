@@ -17,7 +17,7 @@ namespace SistemaPresentacion
             InitializeComponent();
         }
 
-        private void ShowNewForm(object sender, EventArgs e)
+        /*private void ShowNewForm(object sender, EventArgs e)
         {
             Form childForm = new Form();
             childForm.MdiParent = this;
@@ -72,7 +72,7 @@ namespace SistemaPresentacion
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             statusStrip.Visible = statusBarToolStripMenuItem.Checked;
-        }*/
+        }
 
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -100,6 +100,18 @@ namespace SistemaPresentacion
             {
                 childForm.Close();
             }
+        }*/
+
+        private void ALibroToolStriMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAgregar form = new FrmAgregar();
+            form.MdiParent = this;
+            form.Show();
+        }
+
+        private void menuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

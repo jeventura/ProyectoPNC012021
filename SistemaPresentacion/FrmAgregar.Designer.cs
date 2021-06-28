@@ -38,8 +38,14 @@ namespace SistemaPresentacion
             this.lblMateria = new System.Windows.Forms.Label();
             this.lblISBN = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TBTitulo = new System.Windows.Forms.TextBox();
+            this.TBISBN = new System.Windows.Forms.TextBox();
+            this.CBMateria = new System.Windows.Forms.ComboBox();
+            this.CBNumeroedicion = new System.Windows.Forms.ComboBox();
+            this.DTPAñoedicion = new System.Windows.Forms.DateTimePicker();
+            this.CBIdioma = new System.Windows.Forms.ComboBox();
+            this.CBPais = new System.Windows.Forms.ComboBox();
+            this.CBAutor = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -122,19 +128,66 @@ namespace SistemaPresentacion
             this.flowLayoutPanel1.Size = new System.Drawing.Size(16, 567);
             this.flowLayoutPanel1.TabIndex = 9;
             // 
-            // textBox1
+            // TBTitulo
             // 
-            this.textBox1.Location = new System.Drawing.Point(367, 58);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 10;
+            this.TBTitulo.Location = new System.Drawing.Point(367, 58);
+            this.TBTitulo.Name = "TBTitulo";
+            this.TBTitulo.Size = new System.Drawing.Size(210, 23);
+            this.TBTitulo.TabIndex = 10;
             // 
-            // textBox2
+            // TBISBN
             // 
-            this.textBox2.Location = new System.Drawing.Point(367, 119);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 11;
+            this.TBISBN.Location = new System.Drawing.Point(367, 489);
+            this.TBISBN.Name = "TBISBN";
+            this.TBISBN.Size = new System.Drawing.Size(210, 23);
+            this.TBISBN.TabIndex = 12;
+            // 
+            // CBMateria
+            // 
+            this.CBMateria.FormattingEnabled = true;
+            this.CBMateria.Location = new System.Drawing.Point(367, 421);
+            this.CBMateria.Name = "CBMateria";
+            this.CBMateria.Size = new System.Drawing.Size(210, 23);
+            this.CBMateria.TabIndex = 13;
+            // 
+            // CBNumeroedicion
+            // 
+            this.CBNumeroedicion.FormattingEnabled = true;
+            this.CBNumeroedicion.Location = new System.Drawing.Point(367, 361);
+            this.CBNumeroedicion.Name = "CBNumeroedicion";
+            this.CBNumeroedicion.Size = new System.Drawing.Size(210, 23);
+            this.CBNumeroedicion.TabIndex = 14;
+            // 
+            // DTPAñoedicion
+            // 
+            this.DTPAñoedicion.Location = new System.Drawing.Point(367, 301);
+            this.DTPAñoedicion.Name = "DTPAñoedicion";
+            this.DTPAñoedicion.Size = new System.Drawing.Size(210, 23);
+            this.DTPAñoedicion.TabIndex = 15;
+            // 
+            // CBIdioma
+            // 
+            this.CBIdioma.FormattingEnabled = true;
+            this.CBIdioma.Location = new System.Drawing.Point(367, 239);
+            this.CBIdioma.Name = "CBIdioma";
+            this.CBIdioma.Size = new System.Drawing.Size(210, 23);
+            this.CBIdioma.TabIndex = 16;
+            // 
+            // CBPais
+            // 
+            this.CBPais.FormattingEnabled = true;
+            this.CBPais.Location = new System.Drawing.Point(367, 184);
+            this.CBPais.Name = "CBPais";
+            this.CBPais.Size = new System.Drawing.Size(210, 23);
+            this.CBPais.TabIndex = 17;
+            // 
+            // CBAutor
+            // 
+            this.CBAutor.FormattingEnabled = true;
+            this.CBAutor.Location = new System.Drawing.Point(367, 119);
+            this.CBAutor.Name = "CBAutor";
+            this.CBAutor.Size = new System.Drawing.Size(210, 23);
+            this.CBAutor.TabIndex = 18;
             // 
             // FrmAgregar
             // 
@@ -142,8 +195,14 @@ namespace SistemaPresentacion
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(834, 450);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.CBAutor);
+            this.Controls.Add(this.CBPais);
+            this.Controls.Add(this.CBIdioma);
+            this.Controls.Add(this.DTPAñoedicion);
+            this.Controls.Add(this.CBNumeroedicion);
+            this.Controls.Add(this.CBMateria);
+            this.Controls.Add(this.TBISBN);
+            this.Controls.Add(this.TBTitulo);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.lblAutor);
@@ -171,7 +230,13 @@ namespace SistemaPresentacion
         private System.Windows.Forms.Label lblMateria;
         private System.Windows.Forms.Label lblISBN;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TBTitulo;
+        private System.Windows.Forms.TextBox TBISBN;
+        private System.Windows.Forms.ComboBox CBMateria;
+        private System.Windows.Forms.ComboBox CBNumeroedicion;
+        private System.Windows.Forms.DateTimePicker DTPAñoedicion;
+        private System.Windows.Forms.ComboBox CBIdioma;
+        private System.Windows.Forms.ComboBox CBPais;
+        private System.Windows.Forms.ComboBox CBAutor;
     }
 }

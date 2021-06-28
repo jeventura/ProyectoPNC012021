@@ -33,7 +33,7 @@ namespace SistemaPresentacion
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormularioPrincipal));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.FrmAgregar = new System.Windows.Forms.ToolStripMenuItem();
-            this.Libros = new System.Windows.Forms.ToolStripMenuItem();
+            this.ALibros = new System.Windows.Forms.ToolStripMenuItem();
             this.FrmConsultar = new System.Windows.Forms.ToolStripMenuItem();
             this.CLibro = new System.Windows.Forms.ToolStripMenuItem();
             this.FrmEliminar = new System.Windows.Forms.ToolStripMenuItem();
@@ -76,21 +76,23 @@ namespace SistemaPresentacion
             this.menuStrip.Size = new System.Drawing.Size(737, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
+            this.menuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip_ItemClicked);
             // 
             // FrmAgregar
             // 
+            this.FrmAgregar.DoubleClickEnabled = true;
             this.FrmAgregar.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Libros});
+            this.ALibros});
             this.FrmAgregar.Name = "FrmAgregar";
             this.FrmAgregar.Size = new System.Drawing.Size(61, 20);
             this.FrmAgregar.Text = "Agregar";
             // 
-            // Libros
+            // ALibros
             // 
-            this.Libros.DoubleClickEnabled = true;
-            this.Libros.Name = "Libros";
-            this.Libros.Size = new System.Drawing.Size(106, 22);
-            this.Libros.Text = "Libros";
+            this.ALibros.DoubleClickEnabled = true;
+            this.ALibros.Name = "ALibros";
+            this.ALibros.Size = new System.Drawing.Size(106, 22);
+            this.ALibros.Text = "Libros";
             // 
             // FrmConsultar
             // 
@@ -187,7 +189,6 @@ namespace SistemaPresentacion
             this.newToolStripButton.Name = "newToolStripButton";
             this.newToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.newToolStripButton.Text = "Nuevo";
-            this.newToolStripButton.Click += new System.EventHandler(this.ShowNewForm);
             // 
             // openToolStripButton
             // 
@@ -197,7 +198,6 @@ namespace SistemaPresentacion
             this.openToolStripButton.Name = "openToolStripButton";
             this.openToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.openToolStripButton.Text = "Abrir";
-            this.openToolStripButton.Click += new System.EventHandler(this.OpenFile);
             // 
             // saveToolStripButton
             // 
@@ -302,7 +302,7 @@ namespace SistemaPresentacion
         private System.Windows.Forms.ToolStripButton helpToolStripButton;
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.ToolStripMenuItem FrmAgregar;
-        private System.Windows.Forms.ToolStripMenuItem Libros;
+        private System.Windows.Forms.ToolStripMenuItem ALibros;
         private System.Windows.Forms.ToolStripMenuItem FrmConsultar;
         private System.Windows.Forms.ToolStripMenuItem CLibro;
         private System.Windows.Forms.ToolStripMenuItem FrmEliminar;
