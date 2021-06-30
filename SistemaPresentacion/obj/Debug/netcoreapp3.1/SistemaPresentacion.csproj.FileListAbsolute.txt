@@ -19,3 +19,25 @@ C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaPresent
 C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.FrmModificar.resources
 C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.FrmReporte.resources
 C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.FrmReservas.resources
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\bin\Debug\netcoreapp3.1\SistemaPresentacion.exe
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\bin\Debug\netcoreapp3.1\SistemaPresentacion.deps.json
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\bin\Debug\netcoreapp3.1\SistemaPresentacion.runtimeconfig.json
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\bin\Debug\netcoreapp3.1\SistemaPresentacion.runtimeconfig.dev.json
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\bin\Debug\netcoreapp3.1\SistemaPresentacion.dll
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\bin\Debug\netcoreapp3.1\SistemaPresentacion.pdb
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.FormularioPrincipal.resources
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.FrmAgregar.resources
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.FrmConsultar.resources
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.FrmEliminar.resources
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.FrmModificar.resources
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.FrmReporte.resources
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.FrmReservas.resources
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.Properties.Resources.resources
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.csproj.GenerateResource.cache
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.AssemblyInfoInputs.cache
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.AssemblyInfo.cs
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.dll
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.pdb
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.genruntimeconfig.cache

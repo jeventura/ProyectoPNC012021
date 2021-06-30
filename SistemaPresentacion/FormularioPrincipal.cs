@@ -101,5 +101,15 @@ namespace SistemaPresentacion
                 childForm.Close();
             }
         }
+
+        private void FrmAgregar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RLibros_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
