@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "V4MPxBbNPb0NXdkejIA/ZZ2hJNkxwytW6QVndbo54zOuqy1mM5fgHLln9DogBOXuZ2lPohDRygqA7BT3+vLQeA==",
+=======
+  "dgSpecHash": "dezk2Nx5FIhTV0zmvJH4sRMuKP8gXXOvL3z9F15MVzQr+NlTxIzql1kaUche0Y4COEeXTOPL9u4uUBg6cXowFA==",
+>>>>>>> b2d73dfdfc9010e9c11af4caffe294b27e751f86
   "success": true,
   "projectFilePath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\Sistema.Entidades.csproj",
   "expectedPackageFiles": [],

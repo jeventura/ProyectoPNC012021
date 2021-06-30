@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Pmx6GAPwAKfIzupi81M7882B9nQwwyMH+NaXIkWTzW61r8R8VEzxfH+UOmRwR04KPFuwbSi1o3dk0Nh9S6HdQw==",
+=======
+  "dgSpecHash": "J14G/6A7KuCwVJGp9lsFh56e9wgUFHnKORWfKLEjensJGXpj5Bl2HgJIObGKgsrHoymAF9JUkPAGLrIcryjBgw==",
+>>>>>>> b2d73dfdfc9010e9c11af4caffe294b27e751f86
   "success": true,
   "projectFilePath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaPresentacion\\Sistema.Presentacion.csproj",
   "expectedPackageFiles": [],

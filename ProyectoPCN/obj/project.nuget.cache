@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "4Z8w/urHQtmV5p/FUtdtgNrriH2JKPedwoQFjouSrtPWFIIJFQebnR/1UsYJ2CsKm4/Jc+lbQRoOLgFHf80TxA==",
+=======
+  "dgSpecHash": "sT2gbtgJN7+zFj+xH+1oPQNZyzaIAlys0Cwt8DW+NLY/rQO0+Ilcfsc8h8+Bz0VdHa+t74V0ZoRDXMWbAIA3Eg==",
+>>>>>>> b2d73dfdfc9010e9c11af4caffe294b27e751f86
   "success": true,
   "projectFilePath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\Sistema.Datos.csproj",
   "expectedPackageFiles": [
