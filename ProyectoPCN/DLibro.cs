@@ -171,43 +171,73 @@ namespace Sistema.Datos
                 if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
             }
         }
-
-            public string Insertar(Libro obj)
+        public string Insertar(Libro obj)
+        {
+            string respuesta = "";
+            SqlConnection SqlCon = new SqlConnection();
+            try
             {
-                string respuesta = "";
-                SqlConnection SqlCon = new SqlConnection();
-                try
-                {
-                    SqlCon = Conexion.getInstancia().CrearConexion();
-                    SqlCommand Comando = new SqlCommand("libros_insertar", SqlCon);
-                    Comando.CommandType = CommandType.StoredProcedure;
-                    Comando.Parameters.Add("@Numero_Ejemplares", SqlDbType.Int).Value = obj.Numero_Ejemplares;
-                    Comando.Parameters.Add("@ISBN", SqlDbType.VarChar).Value = obj.ISBN;
-                    Comando.Parameters.Add("@Titulo", SqlDbType.VarChar).Value = obj.Titulo;
-                    Comando.Parameters.Add("@Autor", SqlDbType.VarChar).Value = obj.Autor;
-                    Comando.Parameters.Add("@Editorial", SqlDbType.VarChar).Value = obj.Editorial;
-                    Comando.Parameters.Add("@Anno_Edicion", SqlDbType.Int).Value = obj.Anno_Edicion;
-                    Comando.Parameters.Add("@Numero_Edicion", SqlDbType.Int).Value = obj.Numero_Edicion;
-                    Comando.Parameters.Add("@Pais", SqlDbType.VarChar).Value = obj.Pais;
-                    Comando.Parameters.Add("@Idioma", SqlDbType.Int).Value = obj.Idioma;
-                    Comando.Parameters.Add("@Materia", SqlDbType.VarChar).Value = obj.Materia;
-                    Comando.Parameters.Add("@Numero_Paginas", SqlDbType.Int).Value = obj.Numero_Paginas;
-                    Comando.Parameters.Add("@Ubicacion", SqlDbType.VarChar).Value = obj.Ubicacion;
-                    Comando.Parameters.Add("@Descripcion", SqlDbType.VarChar).Value = obj.Descripcion;
-                    Comando.Parameters.Add("@Estado", SqlDbType.Bit).Value = obj.Estado;
-                 SqlCon.Open();
-                    respuesta = Comando.ExecuteNonQuery() == 1 ? "OK" : "No se pudo ingresar el registro";
-                }
-                catch (Exception e)
-                {
-                    respuesta = e.Message;
-                }
-                finally
-                {
-                    if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
-                }
-                return respuesta;
+                SqlCon = Conexion.getInstancia().CrearConexion();
+                SqlCommand Comando = new SqlCommand("libros_insertar", SqlCon);
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.Add("@Numero_Ejemplares", SqlDbType.Int).Value = obj.Numero_Ejemplares;
+                Comando.Parameters.Add("@ISBN", SqlDbType.VarChar).Value = obj.ISBN;
+                Comando.Parameters.Add("@Titulo", SqlDbType.VarChar).Value = obj.Titulo;
+                Comando.Parameters.Add("@Autor", SqlDbType.VarChar).Value = obj.Autor;
+                Comando.Parameters.Add("@Editorial", SqlDbType.VarChar).Value = obj.Editorial;
+                Comando.Parameters.Add("@Anno_Edicion", SqlDbType.Int).Value = obj.Anno_Edicion;
+                Comando.Parameters.Add("@Numero_Edicion", SqlDbType.Int).Value = obj.Numero_Edicion;
+                Comando.Parameters.Add("@Pais", SqlDbType.VarChar).Value = obj.Pais;
+                Comando.Parameters.Add("@Idioma", SqlDbType.Int).Value = obj.Idioma;
+                Comando.Parameters.Add("@Materia", SqlDbType.VarChar).Value = obj.Materia;
+                Comando.Parameters.Add("@Numero_Paginas", SqlDbType.Int).Value = obj.Numero_Paginas;
+                Comando.Parameters.Add("@Ubicacion", SqlDbType.VarChar).Value = obj.Ubicacion;
+                Comando.Parameters.Add("@Descripcion", SqlDbType.VarChar).Value = obj.Descripcion;
+                Comando.Parameters.Add("@Estado", SqlDbType.Bit).Value = obj.Estado;
+                SqlCon.Open();
+                respuesta = Comando.ExecuteNonQuery() == 1 ? "OK" : "No se pudo ingresar el registro";
             }
+            catch (Exception e)
+            {
+                respuesta = e.Message;
+            }
+            finally
+            {
+                if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
+            }
+            return respuesta;
+        }
+        public string Existe(string Valor)
+        {
+            string respuesta = "";
+            SqlConnection SqlCon = new SqlConnection();
+            try
+            {
+                SqlCon = Conexion.getInstancia().CrearConexion();
+                SqlCommand Comando = new SqlCommand("libros_existe", SqlCon);
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.Add("@valor", SqlDbType.VarChar).Value = Valor;
+                SqlParameter ParExiste = new SqlParameter();
+                ParExiste.ParameterName = "@existe";
+                ParExiste.SqlDbType = SqlDbType.Int;
+                ParExiste.Direction = ParameterDirection.Output;
+                Comando.Parameters.Add(ParExiste);
+
+                SqlCon.Open();
+                Comando.ExecuteNonQuery();
+                respuesta = Convert.ToString(ParExiste.Value);
+            }
+            catch (Exception e)
+            {
+                respuesta = e.Message;
+            }
+            finally
+            {
+                if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
+            }
+            return respuesta;
+        }
+        
         
     }
 }
