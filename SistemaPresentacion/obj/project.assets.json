@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaPresentacion\\Sistema.Presentacion.csproj",
-      "projectName": "Sistema.Presentacion",
-      "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaPresentacion\\Sistema.Presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaPresentacion\\SistemaPresentacion.csproj",
+      "projectName": "SistemaPresentacion",
+      "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaPresentacion\\SistemaPresentacion.csproj",
       "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaPresentacion\\obj\\",
       "projectStyle": "PackageReference",

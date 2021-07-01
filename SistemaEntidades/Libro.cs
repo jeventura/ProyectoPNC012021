@@ -1,4 +1,4 @@
-﻿namespace Sistema.Entidades
+﻿namespace SistemaEntidades
 {
     public class Libro
     {

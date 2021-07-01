@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaNegocio\\Sistema.Negocio.csproj",
-      "projectName": "Sistema.Negocio",
-      "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaNegocio\\Sistema.Negocio.csproj",
+      "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaNegocio\\SistemaNegocio.csproj",
+      "projectName": "SistemaNegocio",
+      "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaNegocio\\SistemaNegocio.csproj",
       "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaNegocio\\obj\\",
       "projectStyle": "PackageReference",

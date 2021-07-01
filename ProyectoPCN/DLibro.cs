@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
-using Sistema.Entidades;
-using Sistema.Datos;
+using SistemaEntidades;
+using SistemaDatos;
 using System.Data.SqlClient;
 
 
@@ -16,7 +16,7 @@ namespace Sistema.Datos
             SqlConnection SqlCon = new SqlConnection();
             try
             {
-                SqlCon = SistemaDatos.Conexion.getInstancia().CrearConexion();
+                SqlCon = Conexion.getInstancia().CrearConexion();
                 SqlCommand Comando = new SqlCommand("libros_buscar", SqlCon);
                 Comando.CommandType = CommandType.StoredProcedure;
                 Comando.Parameters.Add("@Valor", SqlDbType.VarChar).Value = Valor;
@@ -40,10 +40,10 @@ namespace Sistema.Datos
             SqlConnection SqlCon = new SqlConnection();
             try
             {
-                SqlCon = SistemaDatos.Conexion.getInstancia().CrearConexion();
+                SqlCon = Conexion.getInstancia().CrearConexion();
                 SqlCommand Comando = new SqlCommand("libros_actualizar", SqlCon);
                 Comando.CommandType = CommandType.StoredProcedure;
-                //Comando.Parameters.Add("@Codigo_Libro", SqlDbType.Int).Value = obj.Codigo_libro;
+                Comando.Parameters.Add("@Codigo_Libro", SqlDbType.Int).Value = obj.Codigo_Libro;
                 Comando.Parameters.Add("@Numero_Ejemplares", SqlDbType.Int).Value = obj.Numero_Ejemplares;
                 Comando.Parameters.Add("@ISBN", SqlDbType.VarChar).Value = obj.ISBN;
                 Comando.Parameters.Add("@Titulo", SqlDbType.VarChar).Value = obj.Titulo;
@@ -74,14 +74,76 @@ namespace Sistema.Datos
         }
         public String Eliminar(int Codigo_Libro)
         {
+            string respuesta = "";
+            SqlConnection SqlCon = new SqlConnection();
+            try
+            {
+                SqlCon = Conexion.getInstancia().CrearConexion();
+                SqlCommand Comando = new SqlCommand("libros_eliminar", SqlCon);
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.Add("@Codigo_Libro", SqlDbType.Int).Value = Codigo_Libro;
+                
+                SqlCon.Open();
+                respuesta = Comando.ExecuteNonQuery() == 1 ? "OK" : "No se pudo actualizar el registro";
+            }
+            catch (Exception e)
+            {
+                respuesta = e.Message;
+            }
+            finally
+            {
+                if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
+            }
+            return respuesta;
 
         }
         public string Prestar(int Codigo_Libro)
         {
+            string respuesta = "";
+            SqlConnection SqlCon = new SqlConnection();
+            try
+            {
+                SqlCon = Conexion.getInstancia().CrearConexion();
+                SqlCommand Comando = new SqlCommand("libros_prestar", SqlCon);
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.Add("@Codigo_Libro", SqlDbType.Int).Value = Codigo_Libro;
 
+                SqlCon.Open();
+                respuesta = Comando.ExecuteNonQuery() == 1 ? "OK" : "No se pudo completar el proceso de prestamo";
+            }
+            catch (Exception e)
+            {
+                respuesta = e.Message;
+            }
+            finally
+            {
+                if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
+            }
+            return respuesta;
         }
         public string Devolver(int Codigo_Libro)
         {
+            string respuesta = "";
+            SqlConnection SqlCon = new SqlConnection();
+            try
+            {
+                SqlCon = Conexion.getInstancia().CrearConexion();
+                SqlCommand Comando = new SqlCommand("libros_devolver", SqlCon);
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.Add("@Codigo_Libro", SqlDbType.Int).Value = Codigo_Libro;
+
+                SqlCon.Open();
+                respuesta = Comando.ExecuteNonQuery() == 1 ? "OK" : "No se pudo completar el proceso de devolucion";
+            }
+            catch (Exception e)
+            {
+                respuesta = e.Message;
+            }
+            finally
+            {
+                if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
+            }
+            return respuesta;
 
         }
 
@@ -92,7 +154,7 @@ namespace Sistema.Datos
             SqlConnection SqlCon = new SqlConnection();
             try
             {
-                SqlCon = SistemaDatos.Conexion.getInstancia().CrearConexion();
+                SqlCon = Conexion.getInstancia().CrearConexion();
                 SqlCommand Comando = new SqlCommand("libros_listar", SqlCon);
                 Comando.CommandType = CommandType.StoredProcedure;
                 SqlCon.Open();
@@ -116,7 +178,7 @@ namespace Sistema.Datos
                 SqlConnection SqlCon = new SqlConnection();
                 try
                 {
-                    SqlCon = SistemaDatos.Conexion.getInstancia().CrearConexion();
+                    SqlCon = Conexion.getInstancia().CrearConexion();
                     SqlCommand Comando = new SqlCommand("libros_insertar", SqlCon);
                     Comando.CommandType = CommandType.StoredProcedure;
                     Comando.Parameters.Add("@Numero_Ejemplares", SqlDbType.Int).Value = obj.Numero_Ejemplares;

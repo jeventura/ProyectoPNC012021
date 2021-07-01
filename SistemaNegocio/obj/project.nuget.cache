@@ -1,12 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "Mp2eQm/AD3mCvsGU8xAnyyTvB7BVZTcKe/IHy4Qftu3gAGWmHBU/znZG7cvIySsfqnonedKmGFBQnoz4JqOBUg==",
-=======
-  "dgSpecHash": "E27g8a0mbSJoQzRfbmzU/Cie+hwn2dVjZqGD7Fq0820TLKZIn46ZHbtFaAG0yXIwUZOmTqxrKtDnWAdwjsocGw==",
->>>>>>> b2d73dfdfc9010e9c11af4caffe294b27e751f86
+  "dgSpecHash": "VCnHzDHOm/kKKADZSW6G64N0LNdncCkGT2/QKAz2vgM+u7Jg0lDVBDQWgZU0139uKkgtmvBhJra8UzSdHKyJzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaNegocio\\Sistema.Negocio.csproj",
+  "projectFilePath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaNegocio\\SistemaNegocio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

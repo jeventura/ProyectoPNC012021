@@ -131,14 +131,14 @@
           }
         }
       },
-      "Sistema.Entidades/1.0.0": {
+      "SistemaEntidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/Sistema.Entidades.dll": {}
+          "bin/placeholder/SistemaEntidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Sistema.Entidades.dll": {}
+          "bin/placeholder/SistemaEntidades.dll": {}
         }
       }
     }
@@ -457,15 +457,15 @@
         "version.txt"
       ]
     },
-    "Sistema.Entidades/1.0.0": {
+    "SistemaEntidades/1.0.0": {
       "type": "project",
-      "path": "../SistemaEntidades/Sistema.Entidades.csproj",
-      "msbuildProject": "../SistemaEntidades/Sistema.Entidades.csproj"
+      "path": "../SistemaEntidades/SistemaEntidades.csproj",
+      "msbuildProject": "../SistemaEntidades/SistemaEntidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Sistema.Entidades >= 1.0.0",
+      "SistemaEntidades >= 1.0.0",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
@@ -475,9 +475,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\Sistema.Datos.csproj",
-      "projectName": "Sistema.Datos",
-      "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\Sistema.Datos.csproj",
+      "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\SistemaDatos.csproj",
+      "projectName": "SistemaDatos",
+      "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\SistemaDatos.csproj",
       "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\obj\\",
       "projectStyle": "PackageReference",
@@ -496,8 +496,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\Sistema.Entidades.csproj": {
-              "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\Sistema.Entidades.csproj"
+            "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\SistemaEntidades.csproj": {
+              "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\SistemaEntidades.csproj"
             }
           }
         }

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\Sistema.Entidades.csproj",
-      "projectName": "Sistema.Entidades",
-      "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\Sistema.Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\SistemaEntidades.csproj",
+      "projectName": "SistemaEntidades",
+      "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\SistemaEntidades.csproj",
       "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\obj\\",
       "projectStyle": "PackageReference",

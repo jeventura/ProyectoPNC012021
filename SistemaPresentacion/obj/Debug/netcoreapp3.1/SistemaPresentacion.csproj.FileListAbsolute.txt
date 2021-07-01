@@ -41,3 +41,4 @@ C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC0120
 C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.dll
 C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.pdb
 C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.genruntimeconfig.cache
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaPresentacion\obj\Debug\netcoreapp3.1\SistemaPresentacion.FrmReservar.resources

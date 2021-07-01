@@ -16,7 +16,7 @@ namespace SistemaDatos
             SqlConnection SqlCon = new SqlConnection();
             try
             {
-                SqlCon = Conexion.GetInstancia().CrearConexion();
+                SqlCon = Conexion.getInstancia().CrearConexion();
                 SqlCommand Comando = new SqlCommand("Persona_Listar", SqlCon);
                 Comando.CommandType = CommandType.StoredProcedure;
                 SqlCon.Open();
@@ -34,13 +34,13 @@ namespace SistemaDatos
             }
         }
 
-        public string Insertar(EProfesor obj)
+        public string Insertar(Profesor obj)
         {
             string respuesta = "";
             SqlConnection SqlCon = new SqlConnection();
             try
             {
-                SqlCon = Conexion.GetInstancia().CrearConexion();
+                SqlCon = Conexion.getInstancia().CrearConexion();
                 SqlCommand Comando = new SqlCommand("Persona_Insertar", SqlCon);
                 Comando.CommandType = CommandType.StoredProcedure;
                 Comando.Parameters.Add("@nombre", SqlDbType.VarChar).Value = obj.nombre;
