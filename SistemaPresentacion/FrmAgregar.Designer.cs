@@ -40,12 +40,19 @@ namespace SistemaPresentacion
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.TBTitulo = new System.Windows.Forms.TextBox();
             this.TBISBN = new System.Windows.Forms.TextBox();
-            this.CBMateria = new System.Windows.Forms.ComboBox();
-            this.CBNumeroedicion = new System.Windows.Forms.ComboBox();
-            this.DTPAñoedicion = new System.Windows.Forms.DateTimePicker();
-            this.CBIdioma = new System.Windows.Forms.ComboBox();
-            this.CBPais = new System.Windows.Forms.ComboBox();
-            this.CBAutor = new System.Windows.Forms.ComboBox();
+            this.tbAutor = new System.Windows.Forms.TextBox();
+            this.tbPais = new System.Windows.Forms.TextBox();
+            this.tbIdioma = new System.Windows.Forms.TextBox();
+            this.tbNEdicion = new System.Windows.Forms.TextBox();
+            this.tbMateria = new System.Windows.Forms.TextBox();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.lblNumeroPaginas = new System.Windows.Forms.Label();
+            this.tbNumeroPaginas = new System.Windows.Forms.TextBox();
+            this.tbDescripcion = new System.Windows.Forms.TextBox();
+            this.lblDescripcion = new System.Windows.Forms.Label();
+            this.lblUbicacion = new System.Windows.Forms.Label();
+            this.tbUbicacion = new System.Windows.Forms.TextBox();
+            this.tbAñoEdicion = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -125,7 +132,7 @@ namespace SistemaPresentacion
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(765, 36);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(16, 567);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(16, 796);
             this.flowLayoutPanel1.TabIndex = 9;
             // 
             // TBTitulo
@@ -142,52 +149,106 @@ namespace SistemaPresentacion
             this.TBISBN.Size = new System.Drawing.Size(210, 23);
             this.TBISBN.TabIndex = 12;
             // 
-            // CBMateria
+            // tbAutor
             // 
-            this.CBMateria.FormattingEnabled = true;
-            this.CBMateria.Location = new System.Drawing.Point(367, 421);
-            this.CBMateria.Name = "CBMateria";
-            this.CBMateria.Size = new System.Drawing.Size(210, 23);
-            this.CBMateria.TabIndex = 13;
+            this.tbAutor.Location = new System.Drawing.Point(367, 119);
+            this.tbAutor.Name = "tbAutor";
+            this.tbAutor.Size = new System.Drawing.Size(210, 23);
+            this.tbAutor.TabIndex = 18;
             // 
-            // CBNumeroedicion
+            // tbPais
             // 
-            this.CBNumeroedicion.FormattingEnabled = true;
-            this.CBNumeroedicion.Location = new System.Drawing.Point(367, 361);
-            this.CBNumeroedicion.Name = "CBNumeroedicion";
-            this.CBNumeroedicion.Size = new System.Drawing.Size(210, 23);
-            this.CBNumeroedicion.TabIndex = 14;
+            this.tbPais.Location = new System.Drawing.Point(367, 176);
+            this.tbPais.Name = "tbPais";
+            this.tbPais.Size = new System.Drawing.Size(210, 23);
+            this.tbPais.TabIndex = 19;
             // 
-            // DTPAñoedicion
+            // tbIdioma
             // 
-            this.DTPAñoedicion.Location = new System.Drawing.Point(367, 301);
-            this.DTPAñoedicion.Name = "DTPAñoedicion";
-            this.DTPAñoedicion.Size = new System.Drawing.Size(210, 23);
-            this.DTPAñoedicion.TabIndex = 15;
+            this.tbIdioma.Location = new System.Drawing.Point(367, 242);
+            this.tbIdioma.Name = "tbIdioma";
+            this.tbIdioma.Size = new System.Drawing.Size(210, 23);
+            this.tbIdioma.TabIndex = 20;
             // 
-            // CBIdioma
+            // tbNEdicion
             // 
-            this.CBIdioma.FormattingEnabled = true;
-            this.CBIdioma.Location = new System.Drawing.Point(367, 239);
-            this.CBIdioma.Name = "CBIdioma";
-            this.CBIdioma.Size = new System.Drawing.Size(210, 23);
-            this.CBIdioma.TabIndex = 16;
+            this.tbNEdicion.Location = new System.Drawing.Point(367, 356);
+            this.tbNEdicion.Name = "tbNEdicion";
+            this.tbNEdicion.Size = new System.Drawing.Size(210, 23);
+            this.tbNEdicion.TabIndex = 21;
             // 
-            // CBPais
+            // tbMateria
             // 
-            this.CBPais.FormattingEnabled = true;
-            this.CBPais.Location = new System.Drawing.Point(367, 184);
-            this.CBPais.Name = "CBPais";
-            this.CBPais.Size = new System.Drawing.Size(210, 23);
-            this.CBPais.TabIndex = 17;
+            this.tbMateria.Location = new System.Drawing.Point(367, 413);
+            this.tbMateria.Name = "tbMateria";
+            this.tbMateria.Size = new System.Drawing.Size(210, 23);
+            this.tbMateria.TabIndex = 22;
             // 
-            // CBAutor
+            // btnAgregar
             // 
-            this.CBAutor.FormattingEnabled = true;
-            this.CBAutor.Location = new System.Drawing.Point(367, 119);
-            this.CBAutor.Name = "CBAutor";
-            this.CBAutor.Size = new System.Drawing.Size(210, 23);
-            this.CBAutor.TabIndex = 18;
+            this.btnAgregar.Location = new System.Drawing.Point(352, 745);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.TabIndex = 23;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // lblNumeroPaginas
+            // 
+            this.lblNumeroPaginas.AutoSize = true;
+            this.lblNumeroPaginas.Location = new System.Drawing.Point(203, 568);
+            this.lblNumeroPaginas.Name = "lblNumeroPaginas";
+            this.lblNumeroPaginas.Size = new System.Drawing.Size(111, 15);
+            this.lblNumeroPaginas.TabIndex = 24;
+            this.lblNumeroPaginas.Text = "Numero de Paginas";
+            // 
+            // tbNumeroPaginas
+            // 
+            this.tbNumeroPaginas.Location = new System.Drawing.Point(367, 560);
+            this.tbNumeroPaginas.Name = "tbNumeroPaginas";
+            this.tbNumeroPaginas.Size = new System.Drawing.Size(210, 23);
+            this.tbNumeroPaginas.TabIndex = 25;
+            // 
+            // tbDescripcion
+            // 
+            this.tbDescripcion.Location = new System.Drawing.Point(367, 621);
+            this.tbDescripcion.Name = "tbDescripcion";
+            this.tbDescripcion.Size = new System.Drawing.Size(210, 23);
+            this.tbDescripcion.TabIndex = 26;
+            // 
+            // lblDescripcion
+            // 
+            this.lblDescripcion.AutoSize = true;
+            this.lblDescripcion.Location = new System.Drawing.Point(203, 624);
+            this.lblDescripcion.Name = "lblDescripcion";
+            this.lblDescripcion.Size = new System.Drawing.Size(69, 15);
+            this.lblDescripcion.TabIndex = 27;
+            this.lblDescripcion.Text = "Descripcion";
+            // 
+            // lblUbicacion
+            // 
+            this.lblUbicacion.AutoSize = true;
+            this.lblUbicacion.Location = new System.Drawing.Point(203, 685);
+            this.lblUbicacion.Name = "lblUbicacion";
+            this.lblUbicacion.Size = new System.Drawing.Size(60, 15);
+            this.lblUbicacion.TabIndex = 28;
+            this.lblUbicacion.Text = "Ubicacion";
+            // 
+            // tbUbicacion
+            // 
+            this.tbUbicacion.Location = new System.Drawing.Point(367, 682);
+            this.tbUbicacion.Name = "tbUbicacion";
+            this.tbUbicacion.Size = new System.Drawing.Size(210, 23);
+            this.tbUbicacion.TabIndex = 29;
+            // 
+            // tbAñoEdicion
+            // 
+            this.tbAñoEdicion.AccessibleRole = System.Windows.Forms.AccessibleRole.Outline;
+            this.tbAñoEdicion.Location = new System.Drawing.Point(367, 298);
+            this.tbAñoEdicion.Name = "tbAñoEdicion";
+            this.tbAñoEdicion.Size = new System.Drawing.Size(210, 23);
+            this.tbAñoEdicion.TabIndex = 30;
             // 
             // FrmAgregar
             // 
@@ -195,12 +256,19 @@ namespace SistemaPresentacion
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(834, 450);
-            this.Controls.Add(this.CBAutor);
-            this.Controls.Add(this.CBPais);
-            this.Controls.Add(this.CBIdioma);
-            this.Controls.Add(this.DTPAñoedicion);
-            this.Controls.Add(this.CBNumeroedicion);
-            this.Controls.Add(this.CBMateria);
+            this.Controls.Add(this.tbAñoEdicion);
+            this.Controls.Add(this.tbUbicacion);
+            this.Controls.Add(this.lblUbicacion);
+            this.Controls.Add(this.lblDescripcion);
+            this.Controls.Add(this.tbDescripcion);
+            this.Controls.Add(this.tbNumeroPaginas);
+            this.Controls.Add(this.lblNumeroPaginas);
+            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.tbMateria);
+            this.Controls.Add(this.tbNEdicion);
+            this.Controls.Add(this.tbIdioma);
+            this.Controls.Add(this.tbPais);
+            this.Controls.Add(this.tbAutor);
             this.Controls.Add(this.TBISBN);
             this.Controls.Add(this.TBTitulo);
             this.Controls.Add(this.lblTitulo);
@@ -214,6 +282,7 @@ namespace SistemaPresentacion
             this.Controls.Add(this.lblPais);
             this.Name = "FrmAgregar";
             this.Text = "FrmAgregar";
+            this.Load += new System.EventHandler(this.FrmAgregar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,11 +301,18 @@ namespace SistemaPresentacion
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.TextBox TBTitulo;
         private System.Windows.Forms.TextBox TBISBN;
-        private System.Windows.Forms.ComboBox CBMateria;
-        private System.Windows.Forms.ComboBox CBNumeroedicion;
-        private System.Windows.Forms.DateTimePicker DTPAñoedicion;
-        private System.Windows.Forms.ComboBox CBIdioma;
-        private System.Windows.Forms.ComboBox CBPais;
-        private System.Windows.Forms.ComboBox CBAutor;
+        private System.Windows.Forms.TextBox tbAutor;
+        private System.Windows.Forms.TextBox tbPais;
+        private System.Windows.Forms.TextBox tbIdioma;
+        private System.Windows.Forms.TextBox tbNEdicion;
+        private System.Windows.Forms.TextBox tbMateria;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Label lblNumeroPaginas;
+        private System.Windows.Forms.TextBox tbNumeroPaginas;
+        private System.Windows.Forms.TextBox tbDescripcion;
+        private System.Windows.Forms.Label lblDescripcion;
+        private System.Windows.Forms.Label lblUbicacion;
+        private System.Windows.Forms.TextBox tbUbicacion;
+        private System.Windows.Forms.TextBox tbAñoEdicion;
     }
 }

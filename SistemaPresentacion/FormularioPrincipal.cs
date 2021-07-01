@@ -109,9 +109,16 @@ namespace SistemaPresentacion
             form.Show();
         }
 
-        private void menuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void ALibros_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void CLibro_Click(object sender, EventArgs e)
+        {
+            FrmConsultar form = new FrmConsultar();
+            form.MdiParent = this;
+            form.Show();
         }
     }
 }

@@ -16,10 +16,10 @@ namespace SistemaDatos
 
         private Conexion()
         {
-            this.Base = "";
+            this.Base = "BibliotecaNCAPAS02";
             this.Servidor = "LAPTOP-853GKQ27";
             this.Usuario = "sa";
-            this.Clave = "CONTRASEÑA";
+            this.Clave = "Hamburguesa21!";
             this.Seguridad = false;
         }
 

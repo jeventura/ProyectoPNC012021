@@ -14,5 +14,15 @@ namespace SistemaPresentacion
         {
             InitializeComponent();
         }
+
+        private void FrmReservas_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDevolver_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

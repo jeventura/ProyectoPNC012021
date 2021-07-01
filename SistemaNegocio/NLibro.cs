@@ -11,18 +11,32 @@ namespace SistemaNegocio
     {
         public static DataTable Listar()
         {
-            DPersona Datos = new DPersona();
+            DLibro Datos = new DLibro();
             return Datos.Listar();
         }
-        public static string Insertar(string nombre, string apellido, int edad, string telefono)
+        public static string Insertar(string Titulo, string Autor, string pais, string idioma, int Año, int Numeroedicion, string Materia, string ISBN, string ubicacion, int NumeroPaginas, string Descripcion)
         {
-            DPersona Datos = new DPersona();
-            Persona objeto = new Persona();
-            objeto.nombre = nombre;
-            objeto.apellido = apellido;
-            objeto.edad = edad;
-            objeto.telefono = telefono;
+            DLibro Datos = new DLibro();
+            ELibro objeto = new ELibro();
+            objeto.Titulo = Titulo;
+            objeto.Autor = Autor;
+            objeto.Pais = pais;
+            objeto.Idioma = idioma;
+            objeto.Año = Año;
+            objeto.Numeroedicion = Numeroedicion;
+            objeto.Materia = Materia;
+            objeto.ISBN = ISBN;
+            objeto.Ubicacion = ubicacion;
+            objeto.Descripcion = Descripcion;
+            objeto.NumeroPaginas = NumeroPaginas;
             return Datos.Insertar(objeto);
+        }
+
+        public static DataTable Buscar(string titulo)
+        {
+            DLibro Datos = new DLibro();
+            return Datos.Buscar(titulo);
+
         }
     }
 }

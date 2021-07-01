@@ -32,7 +32,7 @@ namespace SistemaPresentacion
             this.btnReservar = new System.Windows.Forms.Button();
             this.btnDevolver = new System.Windows.Forms.Button();
             this.tbISBN = new System.Windows.Forms.TextBox();
-            this.lblISBN = new System.Windows.Forms.Label();
+            this.lblCodigo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnReservar
@@ -52,6 +52,7 @@ namespace SistemaPresentacion
             this.btnDevolver.TabIndex = 1;
             this.btnDevolver.Text = "Devolver";
             this.btnDevolver.UseVisualStyleBackColor = true;
+            this.btnDevolver.Click += new System.EventHandler(this.btnDevolver_Click);
             // 
             // tbISBN
             // 
@@ -60,26 +61,27 @@ namespace SistemaPresentacion
             this.tbISBN.Size = new System.Drawing.Size(219, 23);
             this.tbISBN.TabIndex = 2;
             // 
-            // lblISBN
+            // lblCodigo
             // 
-            this.lblISBN.AutoSize = true;
-            this.lblISBN.Location = new System.Drawing.Point(216, 55);
-            this.lblISBN.Name = "lblISBN";
-            this.lblISBN.Size = new System.Drawing.Size(32, 15);
-            this.lblISBN.TabIndex = 3;
-            this.lblISBN.Text = "ISBN";
+            this.lblCodigo.AutoSize = true;
+            this.lblCodigo.Location = new System.Drawing.Point(216, 55);
+            this.lblCodigo.Name = "lblCodigo";
+            this.lblCodigo.Size = new System.Drawing.Size(46, 15);
+            this.lblCodigo.TabIndex = 3;
+            this.lblCodigo.Text = "Codigo";
             // 
             // FrmReservas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 267);
-            this.Controls.Add(this.lblISBN);
+            this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.tbISBN);
             this.Controls.Add(this.btnDevolver);
             this.Controls.Add(this.btnReservar);
             this.Name = "FrmReservas";
             this.Text = "FrmReservas";
+            this.Load += new System.EventHandler(this.FrmReservas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -90,6 +92,6 @@ namespace SistemaPresentacion
         private System.Windows.Forms.Button btnReservar;
         private System.Windows.Forms.Button btnDevolver;
         private System.Windows.Forms.TextBox tbISBN;
-        private System.Windows.Forms.Label lblISBN;
+        private System.Windows.Forms.Label lblCodigo;
     }
 }

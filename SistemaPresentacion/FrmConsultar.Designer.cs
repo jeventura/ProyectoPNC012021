@@ -31,9 +31,9 @@ namespace SistemaPresentacion
         {
             this.lblTitulo = new System.Windows.Forms.Label();
             this.TBTitulo = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DGVConsultar = new System.Windows.Forms.DataGridView();
             this.btnBuscar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGVConsultar)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -52,14 +52,14 @@ namespace SistemaPresentacion
             this.TBTitulo.Size = new System.Drawing.Size(319, 23);
             this.TBTitulo.TabIndex = 1;
             // 
-            // dataGridView1
+            // DGVConsultar
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(27, 114);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(746, 310);
-            this.dataGridView1.TabIndex = 2;
+            this.DGVConsultar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGVConsultar.Location = new System.Drawing.Point(27, 114);
+            this.DGVConsultar.Name = "DGVConsultar";
+            this.DGVConsultar.RowTemplate.Height = 25;
+            this.DGVConsultar.Size = new System.Drawing.Size(746, 310);
+            this.DGVConsultar.TabIndex = 2;
             // 
             // btnBuscar
             // 
@@ -69,6 +69,7 @@ namespace SistemaPresentacion
             this.btnBuscar.TabIndex = 3;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // FrmConsultar
             // 
@@ -76,12 +77,12 @@ namespace SistemaPresentacion
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnBuscar);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DGVConsultar);
             this.Controls.Add(this.TBTitulo);
             this.Controls.Add(this.lblTitulo);
             this.Name = "FrmConsultar";
             this.Text = "FrmConsultar";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGVConsultar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -91,7 +92,7 @@ namespace SistemaPresentacion
 
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.TextBox TBTitulo;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DGVConsultar;
         private System.Windows.Forms.Button btnBuscar;
     }
 }

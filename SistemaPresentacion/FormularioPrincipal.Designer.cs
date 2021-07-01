@@ -76,7 +76,6 @@ namespace SistemaPresentacion
             this.menuStrip.Size = new System.Drawing.Size(737, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
-            this.menuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip_ItemClicked);
             // 
             // FrmAgregar
             // 
@@ -93,6 +92,7 @@ namespace SistemaPresentacion
             this.ALibros.Name = "ALibros";
             this.ALibros.Size = new System.Drawing.Size(106, 22);
             this.ALibros.Text = "Libros";
+            this.ALibros.Click += new System.EventHandler(this.ALibroToolStriMenuItem_Click);
             // 
             // FrmConsultar
             // 
@@ -105,8 +105,9 @@ namespace SistemaPresentacion
             // CLibro
             // 
             this.CLibro.Name = "CLibro";
-            this.CLibro.Size = new System.Drawing.Size(101, 22);
+            this.CLibro.Size = new System.Drawing.Size(180, 22);
             this.CLibro.Text = "Libro";
+            this.CLibro.Click += new System.EventHandler(this.CLibro_Click);
             // 
             // FrmEliminar
             // 

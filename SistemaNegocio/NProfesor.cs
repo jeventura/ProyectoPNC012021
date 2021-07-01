@@ -14,7 +14,7 @@ namespace SistemaNegocio
             DProfesor Datos = new DProfesor();
             return Datos.Listar();
         }
-        public static string Insertar(string nombre, string apellido, int edad, string telefono)
+        /*public static string Insertar(string nombre, string apellido, int edad, string telefono)
         {
             DProfesor Datos = new DProfesor();
             Eprofesor objeto = new Eprofesor();
@@ -23,6 +23,6 @@ namespace SistemaNegocio
             objeto.edad = edad;
             objeto.telefono = telefono;
             return Datos.Insertar(objeto);
-        }
+        }*/
     }
 }

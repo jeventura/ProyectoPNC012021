@@ -1,0 +1,13 @@
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\bin\Debug\netcoreapp3.1\SistemaEntidades.exe
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\bin\Debug\netcoreapp3.1\SistemaEntidades.deps.json
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\bin\Debug\netcoreapp3.1\SistemaEntidades.runtimeconfig.json
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\bin\Debug\netcoreapp3.1\SistemaEntidades.runtimeconfig.dev.json
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\bin\Debug\netcoreapp3.1\SistemaEntidades.dll
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\bin\Debug\netcoreapp3.1\SistemaEntidades.pdb
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\obj\Debug\netcoreapp3.1\SistemaEntidades.csproj.AssemblyReference.cache
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\obj\Debug\netcoreapp3.1\SistemaEntidades.AssemblyInfoInputs.cache
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\obj\Debug\netcoreapp3.1\SistemaEntidades.AssemblyInfo.cs
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\obj\Debug\netcoreapp3.1\SistemaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\obj\Debug\netcoreapp3.1\SistemaEntidades.dll
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\obj\Debug\netcoreapp3.1\SistemaEntidades.pdb
+C:\Users\Ivan Lopez\Documents\Universidad\Estudio\Ncapas\Proyecto\SistemaEntidades\obj\Debug\netcoreapp3.1\SistemaEntidades.genruntimeconfig.cache

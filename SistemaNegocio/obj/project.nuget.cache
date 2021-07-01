@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "E27g8a0mbSJoQzRfbmzU/Cie+hwn2dVjZqGD7Fq0820TLKZIn46ZHbtFaAG0yXIwUZOmTqxrKtDnWAdwjsocGw==",
+  "dgSpecHash": "q63+JzIbgC88ynJZFEbd9LGz/3vM4WBqNTC0Ma2zCgfSEE26nOTCK5iXFNwSFs73FfAvju/sioaZqwkx8BZtsA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaNegocio\\SistemaNegocio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ivan Lopez\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Ivan Lopez\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Ivan Lopez\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\Ivan Lopez\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Ivan Lopez\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Ivan Lopez\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Ivan Lopez\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
+    "C:\\Users\\Ivan Lopez\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Ivan Lopez\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
