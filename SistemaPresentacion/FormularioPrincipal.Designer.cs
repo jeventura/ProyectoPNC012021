@@ -116,12 +116,14 @@ namespace SistemaPresentacion
             this.FrmEliminar.Name = "FrmEliminar";
             this.FrmEliminar.Size = new System.Drawing.Size(62, 20);
             this.FrmEliminar.Text = "Eliminar";
+            this.FrmEliminar.Click += new System.EventHandler(this.FrmEliminar_Click);
             // 
             // ELibros
             // 
             this.ELibros.Name = "ELibros";
-            this.ELibros.Size = new System.Drawing.Size(106, 22);
+            this.ELibros.Size = new System.Drawing.Size(180, 22);
             this.ELibros.Text = "Libros";
+            this.ELibros.Click += new System.EventHandler(this.ELibros_Click);
             // 
             // FrmModificar
             // 
@@ -148,7 +150,7 @@ namespace SistemaPresentacion
             // RLibros
             // 
             this.RLibros.Name = "RLibros";
-            this.RLibros.Size = new System.Drawing.Size(106, 22);
+            this.RLibros.Size = new System.Drawing.Size(180, 22);
             this.RLibros.Text = "Libros";
             this.RLibros.Click += new System.EventHandler(this.RLibros_Click);
             // 

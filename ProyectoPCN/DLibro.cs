@@ -155,9 +155,10 @@ namespace Sistema.Datos
             try
             {
                 SqlCon = Conexion.getInstancia().CrearConexion();
+                SqlCon.Open();
                 SqlCommand Comando = new SqlCommand("libros_listar", SqlCon);
                 Comando.CommandType = CommandType.StoredProcedure;
-                SqlCon.Open();
+                
                 Resultado = Comando.ExecuteReader();
                 Tabla.Load(Resultado);
                 return Tabla;

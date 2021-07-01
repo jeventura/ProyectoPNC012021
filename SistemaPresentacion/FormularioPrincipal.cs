@@ -121,7 +121,21 @@ namespace SistemaPresentacion
 
         private void RLibros_Click(object sender, EventArgs e)
         {
+            FrmReporte frm = new FrmReporte();
+            frm.MdiParent = this;
+            frm.Show();
+        }
 
+        private void FrmEliminar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ELibros_Click(object sender, EventArgs e)
+        {
+            FrmEliminar frm = new FrmEliminar();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }
