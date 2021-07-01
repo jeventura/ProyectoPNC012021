@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Ivan Lopez\\.nuget\\packages\\": {}
+    "C:\\Users\\Julio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaEntidades\\SistemaEntidades.csproj",
+      "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\SistemaEntidades.csproj",
       "projectName": "SistemaEntidades",
-      "projectPath": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaEntidades\\SistemaEntidades.csproj",
-      "packagesPath": "C:\\Users\\Ivan Lopez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaEntidades\\obj\\",
+      "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\SistemaEntidades.csproj",
+      "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ivan Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

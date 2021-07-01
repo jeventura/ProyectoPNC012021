@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "9S6Ydup1dOeQ2df3l8bVMi2GdmiF4ZbjLJkcPhCGrTeaIS9cNb2iHtDObI5x9wokUiAj/QdgcyEiR+52Tk/iqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaPresentacion\\SistemaPresentacion.csproj",
@@ -13,6 +14,21 @@
     "C:\\Users\\Ivan Lopez\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
     "C:\\Users\\Ivan Lopez\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\Ivan Lopez\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+=======
+  "dgSpecHash": "PNECYjwMq8BIiCjHGIKhvkzK8F7HarjqucBE1moabs3y2N5xFwTN4nPTY4aoESa/cE/ZWM7jj2IjY5QiyviRZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaPresentacion\\SistemaPresentacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Julio\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Julio\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Julio\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\Julio\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Julio\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Julio\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Julio\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
+    "C:\\Users\\Julio\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Julio\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+>>>>>>> 1b5ca8d29e9cc1f274db1ea0b87ce284fce9c71f
   ],
   "logs": []
 }

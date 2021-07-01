@@ -114,11 +114,36 @@ namespace SistemaPresentacion
 
         }
 
+<<<<<<< HEAD
         private void CLibro_Click(object sender, EventArgs e)
         {
             FrmConsultar form = new FrmConsultar();
             form.MdiParent = this;
             form.Show();
+=======
+        private void FrmAgregar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RLibros_Click(object sender, EventArgs e)
+        {
+            FrmReporte frm = new FrmReporte();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void FrmEliminar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ELibros_Click(object sender, EventArgs e)
+        {
+            FrmEliminar frm = new FrmEliminar();
+            frm.MdiParent = this;
+            frm.Show();
+>>>>>>> 1b5ca8d29e9cc1f274db1ea0b87ce284fce9c71f
         }
     }
 }

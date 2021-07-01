@@ -484,24 +484,28 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+<<<<<<< HEAD
       "SistemaDatos >= 1.0.0",
       "SistemaEntidades >= 1.0.0"
+=======
+      "SistemaDatos >= 1.0.0"
+>>>>>>> 1b5ca8d29e9cc1f274db1ea0b87ce284fce9c71f
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ivan Lopez\\.nuget\\packages\\": {}
+    "C:\\Users\\Julio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaNegocio\\SistemaNegocio.csproj",
+      "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaNegocio\\SistemaNegocio.csproj",
       "projectName": "SistemaNegocio",
-      "projectPath": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaNegocio\\SistemaNegocio.csproj",
-      "packagesPath": "C:\\Users\\Ivan Lopez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaNegocio\\obj\\",
+      "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaNegocio\\SistemaNegocio.csproj",
+      "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaNegocio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ivan Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -515,11 +519,16 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\ProyectoPCN\\SistemaDatos.csproj": {
               "projectPath": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\ProyectoPCN\\SistemaDatos.csproj"
             },
             "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaEntidades\\SistemaEntidades.csproj": {
               "projectPath": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaEntidades\\SistemaEntidades.csproj"
+=======
+            "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\SistemaDatos.csproj": {
+              "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\SistemaDatos.csproj"
+>>>>>>> 1b5ca8d29e9cc1f274db1ea0b87ce284fce9c71f
             }
           }
         }

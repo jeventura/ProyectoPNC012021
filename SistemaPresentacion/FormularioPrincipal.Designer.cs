@@ -73,7 +73,7 @@ namespace SistemaPresentacion
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(737, 24);
+            this.menuStrip.Size = new System.Drawing.Size(784, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -85,6 +85,7 @@ namespace SistemaPresentacion
             this.FrmAgregar.Name = "FrmAgregar";
             this.FrmAgregar.Size = new System.Drawing.Size(61, 20);
             this.FrmAgregar.Text = "Agregar";
+            this.FrmAgregar.Click += new System.EventHandler(this.FrmAgregar_Click);
             // 
             // ALibros
             // 
@@ -116,12 +117,14 @@ namespace SistemaPresentacion
             this.FrmEliminar.Name = "FrmEliminar";
             this.FrmEliminar.Size = new System.Drawing.Size(62, 20);
             this.FrmEliminar.Text = "Eliminar";
+            this.FrmEliminar.Click += new System.EventHandler(this.FrmEliminar_Click);
             // 
             // ELibros
             // 
             this.ELibros.Name = "ELibros";
-            this.ELibros.Size = new System.Drawing.Size(106, 22);
+            this.ELibros.Size = new System.Drawing.Size(180, 22);
             this.ELibros.Text = "Libros";
+            this.ELibros.Click += new System.EventHandler(this.ELibros_Click);
             // 
             // FrmModificar
             // 
@@ -148,8 +151,9 @@ namespace SistemaPresentacion
             // RLibros
             // 
             this.RLibros.Name = "RLibros";
-            this.RLibros.Size = new System.Drawing.Size(106, 22);
+            this.RLibros.Size = new System.Drawing.Size(180, 22);
             this.RLibros.Text = "Libros";
+            this.RLibros.Click += new System.EventHandler(this.RLibros_Click);
             // 
             // FrmReserva
             // 
@@ -178,7 +182,7 @@ namespace SistemaPresentacion
             this.helpToolStripButton});
             this.toolStrip.Location = new System.Drawing.Point(0, 24);
             this.toolStrip.Name = "toolStrip";
-            this.toolStrip.Size = new System.Drawing.Size(737, 25);
+            this.toolStrip.Size = new System.Drawing.Size(784, 25);
             this.toolStrip.TabIndex = 1;
             this.toolStrip.Text = "ToolStrip";
             // 
@@ -250,10 +254,10 @@ namespace SistemaPresentacion
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 501);
+            this.statusStrip.Location = new System.Drawing.Point(0, 539);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip.Size = new System.Drawing.Size(737, 22);
+            this.statusStrip.Size = new System.Drawing.Size(784, 22);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -267,7 +271,9 @@ namespace SistemaPresentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(737, 523);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.toolStrip);
             this.Controls.Add(this.menuStrip);
@@ -275,6 +281,7 @@ namespace SistemaPresentacion
             this.MainMenuStrip = this.menuStrip;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "FormularioPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "FormularioPrincipal";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();

@@ -105,8 +105,12 @@
       },
       "SistemaNegocio/1.0.0": {
         "dependencies": {
+<<<<<<< HEAD
           "SistemaDatos": "1.0.0",
           "SistemaEntidades": "1.0.0"
+=======
+          "SistemaDatos": "1.0.0"
+>>>>>>> 1b5ca8d29e9cc1f274db1ea0b87ce284fce9c71f
         },
         "runtime": {
           "SistemaNegocio.dll": {}

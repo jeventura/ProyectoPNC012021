@@ -17,10 +17,17 @@ namespace SistemaDatos
         private Conexion()
         {
             this.Base = "BibliotecaNCAPAS02";
+<<<<<<< HEAD
             this.Servidor = "LAPTOP-853GKQ27";
             this.Usuario = "sa";
             this.Clave = "Hamburguesa21!";
             this.Seguridad = false;
+=======
+            this.Servidor = "192.168.0.2";
+            this.Usuario = "sa";
+            this.Clave = "M0nic@linda01";
+            this.Seguridad = true; //seguridad de windows
+>>>>>>> 1b5ca8d29e9cc1f274db1ea0b87ce284fce9c71f
         }
 
         public SqlConnection CrearConexion()
@@ -46,13 +53,15 @@ namespace SistemaDatos
             return Cadena;
         }
 
-        public static Conexion GetInstancia()
+       
+
+        public static Conexion getInstancia()
         {
             if (Con == null)
             {
                 Con = new Conexion();
             }
-            return Con;
+            return Con; 
         }
     }
 }

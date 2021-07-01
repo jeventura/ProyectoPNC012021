@@ -7,7 +7,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProyectoPCN\SistemaDatos.csproj" />
+<<<<<<< HEAD
     <ProjectReference Include="..\SistemaEntidades\SistemaEntidades.csproj" />
+=======
+>>>>>>> 1b5ca8d29e9cc1f274db1ea0b87ce284fce9c71f
   </ItemGroup>
 
 </Project>

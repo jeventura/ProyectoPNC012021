@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\ProyectoPCN\\SistemaDatos.csproj": {}
+    "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\SistemaDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\ProyectoPCN\\SistemaDatos.csproj": {
+    "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\SistemaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\ProyectoPCN\\SistemaDatos.csproj",
+        "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\SistemaDatos.csproj",
         "projectName": "SistemaDatos",
-        "projectPath": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\ProyectoPCN\\SistemaDatos.csproj",
-        "packagesPath": "C:\\Users\\Ivan Lopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\ProyectoPCN\\obj\\",
+        "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\SistemaDatos.csproj",
+        "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\ProyectoPCN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ivan Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,13 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaEntidades\\SistemaEntidades.csproj": {
                 "projectPath": "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaEntidades\\SistemaEntidades.csproj"
+=======
+              "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\SistemaEntidades.csproj": {
+                "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\SistemaEntidades.csproj"
+>>>>>>> 1b5ca8d29e9cc1f274db1ea0b87ce284fce9c71f
               }
             }
           }
@@ -68,6 +73,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\Ivan Lopez\\Documents\\Universidad\\Estudio\\Ncapas\\Proyecto\\SistemaEntidades\\SistemaEntidades.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -79,6 +85,19 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ivan Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\SistemaEntidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\SistemaEntidades.csproj",
+        "projectName": "SistemaEntidades",
+        "projectPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\SistemaEntidades.csproj",
+        "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julio\\Documents\\trabajos\\Universidad\\PNC012021\\proyecto\\ProyectoPNC012021\\SistemaEntidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 1b5ca8d29e9cc1f274db1ea0b87ce284fce9c71f
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

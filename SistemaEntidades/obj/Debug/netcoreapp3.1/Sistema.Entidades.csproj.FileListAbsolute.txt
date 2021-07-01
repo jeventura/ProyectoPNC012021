@@ -1,0 +1,13 @@
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\bin\Debug\netcoreapp3.1\Sistema.Entidades.exe
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\bin\Debug\netcoreapp3.1\Sistema.Entidades.deps.json
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\bin\Debug\netcoreapp3.1\Sistema.Entidades.runtimeconfig.json
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\bin\Debug\netcoreapp3.1\Sistema.Entidades.runtimeconfig.dev.json
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\bin\Debug\netcoreapp3.1\Sistema.Entidades.dll
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\bin\Debug\netcoreapp3.1\Sistema.Entidades.pdb
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\obj\Debug\netcoreapp3.1\Sistema.Entidades.csproj.AssemblyReference.cache
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\obj\Debug\netcoreapp3.1\Sistema.Entidades.AssemblyInfoInputs.cache
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\obj\Debug\netcoreapp3.1\Sistema.Entidades.AssemblyInfo.cs
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\obj\Debug\netcoreapp3.1\Sistema.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\obj\Debug\netcoreapp3.1\Sistema.Entidades.dll
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\obj\Debug\netcoreapp3.1\Sistema.Entidades.pdb
+C:\Users\Julio\Documents\trabajos\Universidad\PNC012021\proyecto\ProyectoPNC012021\SistemaEntidades\obj\Debug\netcoreapp3.1\Sistema.Entidades.genruntimeconfig.cache
